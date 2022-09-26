@@ -1,0 +1,18 @@
+.nav-bar{
+    height: 100px;
+    background-color:skyblue;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10%;
+}
+.nav-bar a{
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+}
+.nav-bar a:hover{
+    color:darkblue;
+}
