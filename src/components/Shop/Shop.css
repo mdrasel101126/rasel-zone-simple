@@ -1,6 +1,7 @@
 .shop-container{
     display: grid;
     grid-template-columns: 4fr 1fr;
+    column-gap: 30px;
 }
 .products-container{
     background-color: aliceblue;
@@ -9,6 +10,11 @@
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 20px;
+}
+.cart-container{
+    background-color: antiquewhite;
+    padding-top: 150px;
+    padding-left: 10px;
 }
 
 @media only screen and (max-width:768px) {
